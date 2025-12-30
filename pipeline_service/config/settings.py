@@ -33,8 +33,8 @@ class TrellisConfig(BaseModel):
 
 class QwenConfig(BaseModel):
     """Qwen model configuration"""
-    base_model_path: str = "Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-8steps-V1.0-bf16.safetensors"
-    model_path: str = "Qwen/Qwen-Image-Edit-2509"
+    base_model_path: str = "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors"
+    model_path: str = "Qwen/Qwen-Image-Edit-2511"
     height: int = 1024
     width: int = 1024
     num_inference_steps: int = 8
