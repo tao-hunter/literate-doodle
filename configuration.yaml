@@ -24,8 +24,8 @@ trellis:
 
 # Qwen model settings
 qwen:
-  base_model_path: "Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-8steps-V1.0-bf16.safetensors"
-  model_path: "Qwen/Qwen-Image-Edit-2509"
+  base_model_path: "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors"
+  model_path: "Qwen/Qwen-Image-Edit-2511"
   height: 1024
   width: 1024
   num_inference_steps: 8
